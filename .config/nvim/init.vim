@@ -10,6 +10,8 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 call plug#end()
 
 let g:netrw_banner = 0
+let g:airline_powerline_fonts = 1
+let g:laststatus = 2
 
 " After this is configured, :ALEFix will try and fix your JS code with ESLint.
 let g:ale_fixers = { 'javascript': ['eslint'] }

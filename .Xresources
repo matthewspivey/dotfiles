@@ -1,4 +1,4 @@
-URxvt.font: -*-terminus-*-*-*-32-*
+urxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=24,xft:Source\ Code\ Pro\ Medium\ for\ Powerline:pixelsize=24
 URxvt.scrollBar: false
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
