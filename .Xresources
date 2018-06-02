@@ -1,0 +1,40 @@
+URxvt.font: -*-terminus-*-*-*-32-*
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+
+!BLK Cursor
+#define _color0        #4f4f4f
+#define _color8        #4f4f4f
+!RED Tag
+#define _color1        #ff6c60
+#define _color9        #fa6960
+!GRN SpecialKey
+#define _color2        #fbb036
+#define _color10       #fbb036
+!YEL Keyword
+#define _color3        #ffffb6
+#define _color11       #feffb9
+!BLU Number
+#define _color4        #5796ed
+#define _color12       #6b9fed
+!MAG Precondit
+#define _color5        #ff73fd
+#define _color13       #fc6ffa
+!CYN Float
+#define _color6        #8ee478
+#define _color14       #8ee478
+!WHT Search
+#define _color7        #eeeeee
+#define _color15       #ffffff
+!FMT Include, StatusLine, ErrorMsg
+#define _colorBD       #ffffff
+#define _colorUL       #ffffff
+#define _colorIT       #ffffff
+!TXT Normal, Normal, Cursor
+#define _foreground    #f8f8f2
+#define _background    #2b3e50
+#define _cursorColor   #e3bf21
+
