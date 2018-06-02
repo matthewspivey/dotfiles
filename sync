@@ -31,3 +31,4 @@ link_file .bash_profile
 link_file .Xresources
 link_file .config/i3
 link_file .config/nvim
+link_file .gitconfig

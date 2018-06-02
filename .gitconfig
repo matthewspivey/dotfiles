@@ -1,0 +1,5 @@
+[user]
+	name = Matt Spivey
+	email = spivey.matthew@gmail.com
+[credential]
+	helper = cache
