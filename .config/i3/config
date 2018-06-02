@@ -35,8 +35,6 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec urxvt
-#bindsym $mod+Return exec xterm
-#i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -174,11 +172,13 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id urxvt
 exec chromium
 
-default_border pixel 0
 hide_edge_borders both
+
+client.background #000000
+
 ### Gaps ###
-set $default_gaps_inner 12
-set $default_gaps_outer 0
-gaps inner $default_gaps_inner
-gaps outer $default_gaps_outer
+for_window [class="^.*"] border pixel 0
+gaps inner 12
+gaps outer 0
+smart_gaps on
 
