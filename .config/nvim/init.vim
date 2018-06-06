@@ -7,6 +7,7 @@ Plug 'mhinz/vim-startify'
 Plug 'w0rp/ale'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'fatih/vim-go'
 call plug#end()
 
 let g:netrw_banner = 0
