@@ -2,9 +2,22 @@
 
 DOTFILES=$HOME/dotfiles
 
+declare -a arr=(".bashrc" 
+                ".bash_profile"
+		".Xresources"
+                ".xinitrc"
+		".inputrc"
+		".config/i3"
+		".config/i3blocks"
+		".config/nvim"
+		".config/chromium-flags.conf"
+		".config/archey3"
+		".gitconfig"
+                )
+
 function link_file(){
   LINK="$HOME/$1"
-  TARGET="$DOTFILES/$1"
+  TARGET="$DOTFILES/home/$1"
   if [ -f $LINK ]; then
     echo "Replace file '$1'?"
     read -p "[y/N]?: " Q_REPLACE_FILE
@@ -26,17 +39,9 @@ function link_file(){
   fi
 }
 
-# TODO - iterate over an array of files and directorie names
-link_file .bashrc
-link_file .bash_profile
-link_file .Xresources
-link_file .xinitrc
-link_file .inputrc
-link_file .config/i3
-link_file .config/nvim
-link_file .config/i3blocks
-link_file .config/chromium-flags.conf
-link_file .config/archey3
-link_file .gitconfig
+for i in "${arr[@]}"
+do
+  link_file "$i"
+done
 
 pacman -Qe | awk -F" " '{print $1}' > $DOTFILES/pacman.list
