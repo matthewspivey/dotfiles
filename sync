@@ -31,7 +31,10 @@ link_file .bashrc
 link_file .bash_profile
 link_file .Xresources
 link_file .xinitrc
+link_file .inputrc
 link_file .config/i3
 link_file .config/nvim
 link_file .config/i3blocks
+link_file .config/chromium-flags.conf
+link_file .config/archey3
 link_file .gitconfig
