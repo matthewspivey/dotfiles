@@ -15,6 +15,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
 let g:laststatus = 2
+let g:go_version_warning = 0
 
 " After this is configured, :ALEFix will try and fix your JS code with ESLint.
 let g:ale_fixers = { 'javascript': ['eslint'] }
@@ -27,3 +28,4 @@ set expandtab       " tabs are space
 set autoindent
 set copyindent      " copy indent from the previous line
 " }}} Spaces & Tabs
+

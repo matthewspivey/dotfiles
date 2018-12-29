@@ -14,3 +14,41 @@ POWERLINE_BASH_SELECT=1
 
 NPM_PACKAGES=~/.npm-packages
 PATH="$NPM_PACKAGES/bin:$PATH"
+
+# shorten directory paths in prompts
+PROMPT_DIRTRIM=3
+
+# Enable history expansion with space
+# E.g. typing !!<space> will replace the !! with your last command
+bind Space:magic-space
+
+## SMARTER TAB-COMPLETION (Readline bindings) ##
+
+# Perform file completion in a case insensitive fashion
+bind "set completion-ignore-case on"
+
+# Treat hyphens and underscores as equivalent
+bind "set completion-map-case on"
+
+# Display matches for ambiguous patterns at first tab press
+bind "set show-all-if-ambiguous on"
+
+# Immediately add a trailing slash when autocompleting symlinks to directories
+bind "set mark-symlinked-directories on"
+
+## HISTORY
+
+# All sessions should append history
+shopt -s histappend
+
+# Enlarge history
+HISTSIZE=100000
+HISTFILESIZE=1000000
+
+# Ignore duplicate entries
+HISTCONTROL="erasedups:ignoreboth"
+
+# Ignore boring commnands
+export HISTIGNORE="&:[ ]*:exit:ls:history:clear"
+
+~/.config/motd.sh
