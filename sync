@@ -3,10 +3,11 @@
 DOTFILES=$HOME/dotfiles
 
 declare -a arr=(".bashrc" 
-                ".bash_profile"
-		".Xresources"
-                ".xinitrc"
+    ".bash_profile"
+    ".Xresources"
+    ".xinitrc"
 		".inputrc"
+		".config/motd.sh"
 		".config/i3"
 		".config/i3blocks"
 		".config/nvim"
