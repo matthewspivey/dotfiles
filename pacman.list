@@ -13,8 +13,10 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+dmenu
 e2fsprogs
 fakeroot
+feh
 file
 filesystem
 findutils
@@ -26,6 +28,7 @@ gettext
 git
 glibc
 go
+graphviz
 grep
 groff
 gzip
@@ -74,6 +77,8 @@ rxvt-unicode
 s-nail
 sed
 shadow
+steam
+steamcmd
 sudo
 sysfsutils
 systemd
@@ -90,10 +95,13 @@ ttf-liberation
 ttf-material-design-icons
 ttf-roboto
 ttf-symbola
+unzip
 usbutils
 util-linux
 which
 wpa_supplicant
+xclip
+xf86-video-intel
 xf86-video-vesa
 xfsprogs
 xorg-bdftopcf

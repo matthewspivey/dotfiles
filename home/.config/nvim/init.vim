@@ -29,3 +29,5 @@ set autoindent
 set copyindent      " copy indent from the previous line
 " }}} Spaces & Tabs
 
+" Display all matching files when using tab completion
+" set wildmenu
