@@ -151,6 +151,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id feh --bg-fill ~/.config/background.png
 exec --no-startup-id urxvt
