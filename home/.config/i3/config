@@ -33,7 +33,7 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop 
 
 # change focus
 bindsym $mod+h focus left
@@ -174,11 +174,3 @@ for_window [class="^.*"] border pixel 0
 gaps inner 12
 gaps outer 0
 
-#bar {
-  # status_command 		SCRIPT_DIR=~/.config/i3blocks/ i3blocks -c ~/.config/i3blocks/config
-  # status_command ~/.config/polybar/launch.sh
-#	position		top
-#	workspace_buttons	yes
-#	mode			hide
-#	font 			xft:Source\ Code\ Pro\ Medium:pixelsize=24,xft:Source\ Code\ Pro\ Medium\ for\ Powerline:pixelsize=24,xft:Font Awesome
-#}
