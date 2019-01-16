@@ -14,6 +14,7 @@ declare -a arr=(".bashrc"
 		".config/nvim"
 		".config/chromium-flags.conf"
 		".config/background.png"
+		".config/polybar"
 		".gitconfig"
                 )
 

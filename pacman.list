@@ -43,6 +43,7 @@ iproute2
 iputils
 iw
 jfsutils
+jsoncpp
 less
 libtool
 licenses
