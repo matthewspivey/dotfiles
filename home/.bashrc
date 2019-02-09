@@ -51,4 +51,3 @@ HISTCONTROL="erasedups:ignoreboth"
 # Ignore boring commnands
 export HISTIGNORE="&:[ ]*:exit:ls:history:clear"
 
-~/.config/motd.sh
