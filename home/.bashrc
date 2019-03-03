@@ -5,7 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Enable color
 alias ls='ls --color=auto'
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias dmesg='dmesg --color=auto'
 
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
