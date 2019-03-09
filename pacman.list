@@ -73,6 +73,7 @@ ppp
 procps-ng
 psmisc
 python
+python-neovim
 python-powerline-gitstatus
 reiserfsprogs
 rofi
