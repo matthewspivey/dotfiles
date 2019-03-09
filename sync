@@ -13,6 +13,7 @@ declare -a arr=(".bashrc"
 		".config/chromium-flags.conf"
 		".config/background.png"
 		".config/polybar"
+		".config/powerline"
 		".gitconfig"
                 )
 
