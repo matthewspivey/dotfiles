@@ -4,16 +4,13 @@ DOTFILES=$HOME/dotfiles
 
 declare -a arr=(".bashrc" 
     ".bash_profile"
-    ".Xresources"
     ".xinitrc"
 		".inputrc"
-		".config/motd.sh"
-		".config/i3"
 		".config/nvim"
 		".config/chromium-flags.conf"
-		".config/background.png"
-		".config/polybar"
 		".config/powerline"
+		".config/sway"
+		".config/termite"
 		".gitconfig"
                 )
 
