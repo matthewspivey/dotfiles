@@ -203,7 +203,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Customize edge bordrs
-hide_edge_borders smart
+default_border none
 
 # multimedia key bindings
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%

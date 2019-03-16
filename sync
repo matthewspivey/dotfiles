@@ -4,7 +4,6 @@ DOTFILES=$HOME/dotfiles
 
 declare -a arr=(".bashrc" 
     ".bash_profile"
-    ".xinitrc"
 		".inputrc"
 		".config/nvim"
 		".config/chromium-flags.conf"
