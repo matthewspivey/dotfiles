@@ -1,0 +1,3 @@
+rofi.theme: solarized
+rofi.font: Roboto 22
+rofi.modi: run

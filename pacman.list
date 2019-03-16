@@ -12,7 +12,6 @@ device-mapper
 dhcpcd
 dialog
 diffutils
-dmenu
 docker
 e2fsprogs
 fakeroot
