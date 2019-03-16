@@ -93,6 +93,7 @@ ttf-roboto
 unzip
 usbutils
 util-linux
+waybar
 which
 wpa_supplicant
 xf86-video-intel

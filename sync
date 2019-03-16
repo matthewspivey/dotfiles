@@ -10,6 +10,7 @@ declare -a arr=(".bashrc"
 		".config/powerline"
 		".config/sway"
 		".config/termite"
+		".config/waybar"
 		".gitconfig"
                 )
 
