@@ -23,7 +23,8 @@ set $menu rofi -show run | xargs swaymsg exec
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/.config/vim.jpg stretch
 #
 # Example configuration:
 #
@@ -62,7 +63,7 @@ output eDP1 scale 2
 input "1:1:AT_Translated_Set_2_keyboard" {
   xkb_layout us
   xkb_variant ,nodeadkeys
-xkb_options caps:escape,ctrl:swap_lalt_lctl,ctrl:rctrl_ralt
+xkb_options ctrl:nocaps,ctrl:swap_lalt_lctl
 }
 
 ### Key bindings
