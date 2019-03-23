@@ -26,7 +26,6 @@ gettext
 git
 glibc
 go
-graphviz
 grep
 groff
 gzip
@@ -83,7 +82,6 @@ sysfsutils
 systemd
 systemd-sysvcompat
 tar
-terminus-font
 termite
 termsyn-font
 texinfo
