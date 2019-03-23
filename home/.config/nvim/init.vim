@@ -7,6 +7,7 @@ Plug 'mhinz/vim-startify'
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 let g:laststatus = 2
@@ -26,6 +27,8 @@ let g:ale_fixers = {
 let g:ale_completion_enabled = 1
 let g:ale_set_balloons = 1
 let g:ale_sign_column_always = 1
+
+set encoding=UTF-8
 
 " Spaces & Tabs {{{
 set tabstop=2       " number of visual spaces per TAB
