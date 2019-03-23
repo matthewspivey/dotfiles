@@ -7,7 +7,6 @@ Plug 'mhinz/vim-startify'
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'pangloss/vim-javascript'
 call plug#end()
 
 let g:laststatus = 2
@@ -27,21 +26,6 @@ let g:ale_fixers = {
 let g:ale_completion_enabled = 1
 let g:ale_set_balloons = 1
 let g:ale_sign_column_always = 1
-
-" Customize vim-javascript
-set conceallevel=1
-let g:javascript_conceal_function             = "ƒ"
-let g:javascript_conceal_null                 = "ø"
-let g:javascript_conceal_this                 = "@"
-let g:javascript_conceal_return               = "⇚"
-let g:javascript_conceal_undefined            = "¿"
-let g:javascript_conceal_NaN                  = "ℕ"
-let g:javascript_conceal_prototype            = "¶"
-let g:javascript_conceal_static               = "•"
-let g:javascript_conceal_super                = "Ω"
-let g:javascript_conceal_arrow_function       = "⇒"
-let g:javascript_conceal_noarg_arrow_function = "🞅"
-let g:javascript_conceal_underscore_arrow_function = "🞅"
 
 " Spaces & Tabs {{{
 set tabstop=2       " number of visual spaces per TAB
