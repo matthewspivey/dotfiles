@@ -21,11 +21,11 @@ findutils
 flex
 gawk
 gcc
+gcc-go
 gcc-libs
 gettext
 git
 glibc
-go
 grep
 groff
 gzip
@@ -43,6 +43,7 @@ light
 linux
 linux-lts
 logrotate
+lsof
 lvm2
 m4
 make
@@ -82,8 +83,8 @@ sysfsutils
 systemd
 systemd-sysvcompat
 tar
+terminus-font
 termite
-termsyn-font
 texinfo
 ttf-dejavu
 ttf-fira-mono
