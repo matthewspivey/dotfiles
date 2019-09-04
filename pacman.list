@@ -50,6 +50,7 @@ m4
 make
 man-db
 man-pages
+marked
 mdadm
 neovim
 nerd-fonts-source-code-pro
@@ -69,8 +70,8 @@ ppp
 procps-ng
 psmisc
 python
-python-neovim
 python-powerline-gitstatus
+python-pynvim
 reiserfsprogs
 rofi
 s-nail
