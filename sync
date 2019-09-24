@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES=$HOME/dotfiles
+DOTFILES=$HOME/git/dotfiles
 
 declare -a arr=(".bashrc" 
     ".bash_profile"
@@ -34,7 +34,7 @@ function link_file(){
       ls -la $LINK
     fi
   else
-    ln -s $TARGET $LINK
+    ln -sf $TARGET $LINK
     ls -la $LINK
   fi
 }
