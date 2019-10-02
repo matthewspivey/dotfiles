@@ -14,6 +14,7 @@ dialog
 diffutils
 docker
 e2fsprogs
+exfat-utils
 fakeroot
 file
 filesystem
