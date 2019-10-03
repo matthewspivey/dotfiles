@@ -225,7 +225,7 @@ bar {
     swaybar_command waybar
 }
 
-exec --no-startup-id termite
+# exec --no-startup-id termite
 exec --no-startup-id chromium
 
 include /etc/sway/config.d/*
