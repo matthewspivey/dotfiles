@@ -1,14 +1,19 @@
 colorscheme lucario
 
 call plug#begin()
+" chrome and eye candy
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'mhinz/vim-startify'
-Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ryanoasis/vim-devicons'
-Plug 'bagrat/vim-buffet'
+Plug 'mhinz/vim-startify'
+" deoplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'deoplete-plugins/deoplete-docker'
+" JavaScript
+Plug 'w0rp/ale'
+
 call plug#end()
 
 let g:laststatus = 2
@@ -36,6 +41,10 @@ let g:buffet_powerline_separators = 1
 let g:buffet_tab_icon = "\uf00a"
 let g:buffet_left_trunc_icon = "\uf0a8"
 let g:buffet_right_trunc_icon = "\uf0a9"
+
+set runtimepath+=$XDG_CONFIG_HOME/nvim/plugged/deoplete.nvim
+set completeopt+=noinsert,noselect
+set completeopt-=preview
 
 " Spaces & Tabs {{{
 set tabstop=2       " number of visual spaces per TAB
