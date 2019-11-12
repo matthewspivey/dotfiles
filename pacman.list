@@ -71,7 +71,9 @@ ppp
 procps-ng
 psmisc
 python
+python-language-server
 python-powerline-gitstatus
+python-pylint
 python-pynvim
 reiserfsprogs
 rofi
