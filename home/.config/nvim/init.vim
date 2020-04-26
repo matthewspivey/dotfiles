@@ -9,8 +9,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
 " coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" JavaScript
-Plug 'w0rp/ale'
+" CocInstall coc-python coc-prettier coc-eslint coc-css coc-json coc-pairs coc-docker coc-html
+" Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -35,14 +35,13 @@ let g:ale_sign_warning = '⚠️'
 
 set encoding=UTF-8
 
-" Spaces & Tabs {{{
+" Default spaces & tabs
 set tabstop=2       " number of visual spaces per TAB
 set softtabstop=2   " number of spaces in tab when editing
 set shiftwidth=2    " number of spaces to use for autoindent
 set expandtab       " tabs are space
 set autoindent
 set copyindent      " copy indent from the previous line
-" }}} Spaces & Tabs
 
 " Configure coc.nvim
 " if hidden is not set, TextEdit might fail.
